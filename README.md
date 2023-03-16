@@ -1,8 +1,10 @@
 # font-importer-for-Adafruit-GFX-Library
-Imports 52 fonts for Arduino Adafruit GFX Library with just one line of code
+  Imports 52 fonts for Arduino Adafruit GFX Library with just one line of code
 
 # How to use
-  place this code on top of your script:
+  1. [Download](/hjun1052/font-importer-for-Adafruit-GFX-Library/archive/refs/heads/main.zip) & Move this file to [Arduino gfx library](https://github.com/adafruit/Adafruit-GFX-Library) folder
+  2. Open your arduino code
+  3. Place this code on top of your script:
   ```cpp
     #include "Adafruit_GFX.h" //Arduino GFX Library
     #include "allFonts.h" //Font importer
